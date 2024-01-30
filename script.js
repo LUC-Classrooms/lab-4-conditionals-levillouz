@@ -1,17 +1,16 @@
+var x = 5
+
 function setup() {
   createCanvas(320, 240);
 }
 
 function draw() {
   background(200);
-  
-  // check to condition of the mouse
-  if(mouseIsPressed){ // true or false?
-    // if true, change the fill color here
-    
+noStroke()
+  if(mouseIsPressed){ true, fill (0,255,0)
+ellipse (width/x, height/2, 100, 100)
   }
-  else { 
-    // otherwise do this:
+  else { fill (255, 0, 0)
     
   }
   ellipse(width/2, height/2, 100, 100);
